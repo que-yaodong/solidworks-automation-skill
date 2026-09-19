@@ -8,13 +8,25 @@ CAD Studio 桌面端与 Skill/CLI/MCP 是平级入口：这个仓库同时可以
 
 > 可靠性边界：当前真机基线为 SolidWorks 2024、SolidWorks 2026 SP01.1 和 AutoCAD 2024。SolidWorks 2026 仅对能力清单中列出 2026 的能力视为已验证；SolidWorks 2025 及其余未回归能力仍是兼容性目标。配置族、钣金 U 型轮廓法兰/展开 DXF，以及 HSS 矩形焊接框架/切割清单已进入 `pilot`；设计表与复杂钣金/焊件仍是兼容目标。C# Add-in 宿主已在 SW2026 SP1.1 完成进程内 callback、应用事件、CommandGroup、TaskPane、PropertyManagerPage 和 JSON 诊断回归；正式部署必须使用 64 位 RegAsm `/codebase /tlb`。Simulation/FEA、Routing、复杂曲面和模具也处于受控 `pilot` 门禁，不能冒充原生完整交付。
 
+## 本仓库整套安装入口（Windows / Codex）
+
+本维护仓库：[que-yaodong/solidworks-automation-skill](https://github.com/que-yaodong/solidworks-automation-skill)。下载完整 `main` 分支 ZIP 并解压，在解压目录运行：
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
+```
+
+一次注册主技能和五项子技能，共 **6 项**；完整共享资料默认保存在 `D:\ChatGPT\CAD套件`，客户端使用目录联接。也可运行 `node install.js`，该入口仅调用当前下载目录的安装器，不再另拉取上游代码。安装不自动执行 pip 或注册 MCP。校验、更新、备份恢复和自定义路径见[安装说明](安装说明.md)。
+
+下文保留上游功能文档。原作者署名与 MIT 许可证保持不变；其中 Smithery 和桌面发行链接属于上游入口，不代表本维护仓库的整套 Skill 安装。
+
 ## 下载与首次启动
 
 三种入口互相独立，按使用习惯任选其一：
 
 | 入口 | 适合用户 | 下载/安装 |
 |---|---|---|
-| Skill | 已在使用支持 skill 导入的客户端 | `npx github:wzyn20051216/solidworks-automation-skill`，或 `claude skill add https://github.com/wzyn20051216/solidworks-automation-skill` |
+| Skill | 已在使用支持 skill 导入的客户端 | 下载本仓库后运行 `powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1`（详见上方整套入口） |
 | MCP | 已在使用 Codex、Claude Code、Cursor、Windsurf 或其他 MCP 客户端 | 推荐通过 [Smithery](https://smithery.ai/servers/wzyn20051216/solidworks-automation-skill) 安装：`smithery mcp add wzyn20051216/solidworks-automation-skill --client codex --config '{}'` |
 | CAD Studio 桌面版 | 希望用图形界面管理项目、对话、任务、预览和交付 | 从 [GitHub Releases](https://github.com/wzyn20051216/solidworks-automation-skill/releases) 下载 Windows 安装包或便携 ZIP |
 

@@ -1,0 +1,1951 @@
+{
+  "schema_version": 1,
+  "suite_id": "solidworks-automation-skill",
+  "files": [
+    {
+      "path": ".github/workflows/star-history.yml",
+      "sha256": "eba0e1e58c81b215ed3d184ef603781142f7c828f48d99d68ad613539e7faaf3",
+      "normalize_lf": true
+    },
+    {
+      "path": ".github/workflows/windows-cad-regression.yml",
+      "sha256": "f0e7a90f5be167c83df60d333a37c71707dcf8c95615436790aa105d1351d2f1",
+      "normalize_lf": true
+    },
+    {
+      "path": ".github/workflows/windows-release.yml",
+      "sha256": "336031bef53dd3009fa4ff0ca7cd93a1a443a5bd023ababc1810301e17fb91c6",
+      "normalize_lf": true
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "bb2adbff95db31caed7bd262eccc22eed9915dd244b41f175ff95d80e4a1bd73",
+      "normalize_lf": true
+    },
+    {
+      "path": ".mcpbignore",
+      "sha256": "083115aaccbeb54a0e5ea3d06e6ec30c058acb60f9325945707094093fe7c05a",
+      "normalize_lf": true
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "c247e2af233d47cb0a0d1406206f45f23740e5b57e1e236ad0eaf6dc467984d4",
+      "normalize_lf": true
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c4fdf46b5ebb48917864deffb876ef098af2d7ac7392616c9015e1a4cf6af862",
+      "normalize_lf": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "677b58d264eb715426376cb8ce3d965394edf925d0d15d57a1d457bd9cb8c352",
+      "normalize_lf": true
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "0db8d022424ba81d694fc82b2eb5525d32ed040e37ffceca25577408e5ffd3f8",
+      "normalize_lf": true
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "9c61ecb745348eaa632aed654e8dc4854b700ecd6d88011c0da6ee991f7232ee",
+      "normalize_lf": true
+    },
+    {
+      "path": "SUBSKILLS.md",
+      "sha256": "355f2a8eb7cf04ce831a740357d8d00b116149cc41942a30c41506362bb4a331",
+      "normalize_lf": true
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "8ff7af6b2918dc592a77e034718030b92fed3a91014dcb038835a5f8a386ef1e",
+      "normalize_lf": true
+    },
+    {
+      "path": "ai_team/delivery-gate-e2e.cjs",
+      "sha256": "3e40cdcc34583164d1716154c7a67dd7e027048b534d80aedcb5677a785041c5",
+      "normalize_lf": true
+    },
+    {
+      "path": "ai_team/nsis-install-e2e.ps1",
+      "sha256": "7dc66bd1bf5312910f14a26eae0ec57141740e57685078008bd2973b9c8eb5f8",
+      "normalize_lf": true
+    },
+    {
+      "path": "ai_team/preview-viewport-e2e.cjs",
+      "sha256": "ce7c63c0b63482f6df13c35c2b60a3e3beb3972d3154a8c05b5a077737bb0746",
+      "normalize_lf": true
+    },
+    {
+      "path": "ai_team/provider-ui-e2e.cjs",
+      "sha256": "767c828a0ff013f8005db7670b97bbfaf56e3375002ec38b28740a1f48da8930",
+      "normalize_lf": true
+    },
+    {
+      "path": "ai_team/release-portable-e2e.cjs",
+      "sha256": "ba08356d00e5af6d28925126ba8b535b9c7cb2652e27c98a7138a927614bcc5b",
+      "normalize_lf": true
+    },
+    {
+      "path": "ai_team/ui-layout-check.cjs",
+      "sha256": "f04a57a9a5de115a59e66ff344549cf69a0abe5b2780f0e029c3faf42814b91d",
+      "normalize_lf": true
+    },
+    {
+      "path": "ai_team/workbench-e2e-final.cjs",
+      "sha256": "66c55fd01280beb7a0baa374ad3eb220e6d8942e72e2ce44957b478d9c373eee",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/DESIGN.md",
+      "sha256": "a28fb1fde8ad437b1a9b315a054cf6653f426a667d76795f4d2cf4ab71010b7b",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/README.md",
+      "sha256": "693a323b8b643c6491802f6ba684b59d1a5f8ce46d6a86ac8fda06762eab2505",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/__init__.py",
+      "sha256": "2b690db927d7cd778d631e83e077301b3e7f725bd1b6a008d31787957e8f541a",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/build_exe.ps1",
+      "sha256": "cb2402c1c1ff5bd206fa38f1fe84d86ca8f248893e23d07fa9b6148ec5bba472",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/__init__.py",
+      "sha256": "5c1514e87bb2ee0a73b5395690b09b4fa66bbd4cb5c6e7d74652d333662781d7",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/agent_contracts.py",
+      "sha256": "9472986383f7ad1058047226e6249dc9673ac021c255c897c7bc497d6737ccc3",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/agent_providers.py",
+      "sha256": "abaefa99f2624bae9f0cc38a2e0fb4b4a54228776e9c8c8f0143b7a233db1b8f",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/app.py",
+      "sha256": "d841875305ff4c62019748834a80ed37a9f9666a876ffcb0902999641ff65122",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/artifact_ledger.py",
+      "sha256": "98a8e4afdfd5156aac7cbdda4c8f3a292d4ce95c9ee4fc04a00fdb9ab21a3150",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/cad_core_contracts.py",
+      "sha256": "46c2ea9489868875c5e111a9a3763f4a9898b14370255fbe46eaf9d2774b80cb",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/core.py",
+      "sha256": "ec5f0cb88c9fd9952373ef80fa86211da4b98062e40fee030ec24824ad3eb87a",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/engineering_orchestrator.py",
+      "sha256": "4ba7047f3c1f40e464948274f006ce41389ee19036bcf725c7ff17cc1c50abe7",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/knowledge_retrieval.py",
+      "sha256": "d34bd7361b087b3034e1654f72fff6354aed081bb41f95dd30f2f1b7c48cab91",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/mock_runner.py",
+      "sha256": "e5aa7059fbff3466c3b390d08d546aac6cc30e9acac504dae7f7d318b907bea4",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/queue_worker.py",
+      "sha256": "bf6c54529680c3fd925ec161c04109197bfe49b92a57fff08d0226c38a52f6b4",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/reviewer_gate.py",
+      "sha256": "fbd35aa93c6aa25fa93fab124ca78b4621aea49c9342a1b592a340e83d1b95ed",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/schemas/advanced_geometry.schema.json",
+      "sha256": "a30cf3f07eb5b4d6a10678043f99344eab93847e9b4058acea2bc4dbe304ad56",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/schemas/advanced_surface.schema.json",
+      "sha256": "cd611fc44dbe805bafdc3ca38039068758670cea70f0e1494a721f462b092ede",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/schemas/automation_job.schema.json",
+      "sha256": "a763f131e89079e8a2bbb6e59e943912a35282854e7e39a3bb66e039e7d48ce8",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/schemas/codex_final_response.schema.json",
+      "sha256": "894809a7841a67a59c1e184f8ab974c583d1d64dda92c6948c3e3ec04a405023",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/schemas/evidence_graph.schema.json",
+      "sha256": "e6132d2004882bda62cd305a940cd38ce5c99ed86a71d3a8780ad44181e53a83",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/schemas/fea_analysis.schema.json",
+      "sha256": "5fa0f83cc8377138d01d3563c6101641186e570287cc979787b50deecdf0d63c",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/schemas/neutral_cad_document.schema.json",
+      "sha256": "26c01d2177a1ad073e5e5c7828b0a3a21237d1a4cd88fc447e056c1cd2c2fd21",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/schemas/preview_manifest.schema.json",
+      "sha256": "195c38ded6bafdb217138d7282ce5c1ddcea44a87979fc4b410db3ad649ef4fd",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/style.py",
+      "sha256": "bcf226b06ecf4e791399b2823b6e2fbc9738ac70ee9735f1a34e36b89f60f7e5",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/cad_workbench/worker_health.py",
+      "sha256": "3459e04a951acb1de2404b4756c434b4a1135a68098ac905c0a82bfce01025c2",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/preview_main_window.png",
+      "sha256": "1800d14fb27a458d397818cf33d8c0653760d54e415488875c4fd6720ff50e50",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/desktop/requirements.txt",
+      "sha256": "1eb8745b764ae1014a48afab62e8ecc6670633caee8191c2fd6882d0a8f00948",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/run.py",
+      "sha256": "c9f235a002a06d42299fb5f70b1123ecb2940831a15b4e29fdf8dbb42a69237a",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/desktop/start_desktop.ps1",
+      "sha256": "778978edb42effce94fceeba04bf391c55df27fe97a8888b04dd6bcd7c8f9a42",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/README.md",
+      "sha256": "57f82c7131872245827afad29015b320162478771a27b9c3b380c70a1ac760b9",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/docs/automation-queue-protocol.md",
+      "sha256": "e0cdb43f40629e104f311c2e7432c48d3367c2a55efd18e14383f1fd5118e07d",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/index.html",
+      "sha256": "e66a87b16f63f33f61c066ea66a203622bc8d3ebe836bedb0bec22b890033fbb",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/package-lock.json",
+      "sha256": "2578784b53723c03165935f0cca97f978eb9b7c657f88ad4da7abd7d6631afdc",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/package.json",
+      "sha256": "a8261a7e022e8a0e2869ffd43954ae757edc480610ab0e76579e595cbce90d65",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/preview-workbench-ui-appearance.png",
+      "sha256": "d48f1a6c598ea46bbd5a1ffb01503604b4c8f0105a756e2b9b0bc1a252084903",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/preview-workbench-ui-desktop.png",
+      "sha256": "5bc7178c93a90031c39dcd3c36821b4fa46587371cbe9568859070780b67d98b",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/preview-workbench-ui-mobile.png",
+      "sha256": "fd141655c39d4088d05b39582ce018e4257b4410c5d4c7dc1158e14238ef9b9f",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/.gitignore",
+      "sha256": "646a917f23a3d76736252fac394b218e99c3f2d7f5c4dad9e334563452574cde",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/Cargo.lock",
+      "sha256": "1df46a85c2bf42f7a553dbc08185dc0c3670b4f639b85c6d54e69ea850e23b8c",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/Cargo.toml",
+      "sha256": "10466ab3a94f0a8225177e84c11097e6f94d13a9c8c4705fc837e2ca87b237e4",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/build.rs",
+      "sha256": "42b197ccf0faf5d5792a1f5433df0bd896a0937118cfe8656e83bac0e951426c",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/capabilities/default.json",
+      "sha256": "8ef1bf3f60fc94b21be101c02d30e96d2b6206c23673cecd3a89d72bdccfa35f",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/examples/verify_updater_signature.rs",
+      "sha256": "246ff34354516c9380dc03ebb4dedbaf7cd6c932a833b1072165d9a749707fc0",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/128x128.png",
+      "sha256": "eeebf55d8ffe07348786b9057af253e3ca08c56b6a8f8893826381430e3c0b7b",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/128x128@2x.png",
+      "sha256": "2998b41d0c9278b08e8b3874e094920034fe983a46053c9d62764225f58ab7b0",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/32x32.png",
+      "sha256": "aaa96d0c53b756b77c7f46aeb72290f42256c786c69be68f6bcdeb9c7492a48e",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/Square107x107Logo.png",
+      "sha256": "33446a858d982a529554e562114673f8b15620588137cf0bf6c56a7441c78cd7",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/Square142x142Logo.png",
+      "sha256": "633d6dba504faa844b309e01272386e4523cddd4a3639c77c0eb5d2ce3eac752",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/Square150x150Logo.png",
+      "sha256": "d90061ad71e6f5882b759d80cf58cc16aa5021fa29ba4b2614adea982a4d7ee5",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/Square284x284Logo.png",
+      "sha256": "5feaa4f18f404843551756dd2791d7654ef471b6b007767ae40f60c7aebcad5b",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/Square30x30Logo.png",
+      "sha256": "68bc1b585f5685e0922f14b1ca7eb2d618213c684c89e759c6a5eb8578c3fe8d",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/Square310x310Logo.png",
+      "sha256": "5df8d779ab57c63ee06ed237b94c3c0954711e88117dccfa72b2aec5d83b0d80",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/Square44x44Logo.png",
+      "sha256": "c46208286b1ea1b4841b714972f3cb0a8abc6d3bfa71a29238f7b4d62f511f89",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/Square71x71Logo.png",
+      "sha256": "cb0ea93cbd13509d32c6bc06da71687e73d673d166fde91b23061771abe16b86",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/Square89x89Logo.png",
+      "sha256": "2208da1d741a20e902a59d7c39a5e58af74ec823db13113bf8ac6f555fa25bca",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/StoreLogo.png",
+      "sha256": "9f84d0ce09df51bac0a4855042b3e49b190cc2b9761cd5eab61ebec5cd343820",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/icon.icns",
+      "sha256": "1535d355994f8ee82da91384d2a29e04d5b4440f3e6051b5c8b06e7a62283693",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/icon.ico",
+      "sha256": "e38ca88e1d5490f3dcbc3c3fa525f7fcb7b80fff3cb2f3a4eb1b2d018c0915c1",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/icons/icon.png",
+      "sha256": "6413bfe9d546e5225fc9256a0ecec48df3a1272ea4bdc91c15b8e000222a95d3",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/src/lib.rs",
+      "sha256": "593a2fed4a8c67bb2c32a7848d4983976981f1734185566d9a2c395da4d461c8",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/src/main.rs",
+      "sha256": "e5dfab54c7a9843285d54ff5a783c00813cd3f28d1bb2f6982aa348697cbb1c4",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src-tauri/tauri.conf.json",
+      "sha256": "def127d9852686e284b4a120a072f28877baa9cd5012a49f13a22ee93e0aa4c8",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/App.tsx",
+      "sha256": "dcdf37bdc9c5ab4f91e79ac7433960096ce77900457cabb1c12419ba0e8cf3ac",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/CadPreview.tsx",
+      "sha256": "53451c7c8614aee715bb3ec9e8b85a37948311d726433f0f595e050c40c5da1a",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/assets/WALLPAPER_CREDITS.md",
+      "sha256": "57617064bea983efcc0162bc1ae97d1ecbc5226f50fa1c0494632b481c8027af",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/assets/default-blossom-poster.webp",
+      "sha256": "2fcb1d0b3caed94b54a6dec4c6fb307ec8e7e06dcbffc4c8168a6ba5138680b3",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src/assets/default-blossom-wallpaper.mp4",
+      "sha256": "217a00d8fcdc7b5a1cd3eb40293a0845e3818dff892975169370088b6776a1d6",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src/assets/wallpaper-anime-sky.webp",
+      "sha256": "a0964c7e1b4e1c77e28bd6f66d128944aa69432b3cf05fe799556ea96909e6fa",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src/assets/wallpaper-fuji.webp",
+      "sha256": "8a147ad22f28fb6b159a2f3aa431e7e6f39e0ef9ea95e09d3d03b0737abf2be9",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src/assets/wallpaper-tokyo-neon.webp",
+      "sha256": "8d2a331c0919f8048fae69735fb30bb765c00f9598930a77f69f22a68919c41e",
+      "normalize_lf": false
+    },
+    {
+      "path": "apps/workbench-ui/src/components/AppUpdatePanel.tsx",
+      "sha256": "ffe2de1b0b9ec0b8ca4794ad34f7f9b1c23c78856a37238bb5faa8b873da3954",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/components/ArtifactBrowser.tsx",
+      "sha256": "dc3b13ea559853f00cfd469b1ec0c3483b1b8b682372f57f192a981fc0bf5d4f",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/components/ConversationControls.tsx",
+      "sha256": "e9967d3df7d8de50396d8c6a24303b0aef9780e88c6b79a3aa571238e2cb717a",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/components/EnvironmentRemediationPanel.tsx",
+      "sha256": "1da5dfd18ad70ba466e2d196d69ba82db6a6c85c6d6c419c1343f6ab15f5b59a",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/components/ManualReviewPanel.tsx",
+      "sha256": "de93b857f237acdc97cda1070aeda7eaece21d82eb68c8276bf86bfda4576b02",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/components/ProjectSwitcher.tsx",
+      "sha256": "af015040d20ed6eaa4785c32215b6dd27815b003b33f90722c631b4fde9924bd",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/components/TaskSequence.tsx",
+      "sha256": "837d91b82ba79b81155b330952a3e6a34477f47ef040138dc53bf73c67bdb396",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/domain/artifacts.ts",
+      "sha256": "1339a290d8f4b24f9cf7993fc2775a7250ea616d5eb6861d0c566af66593823d",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/domain/delivery.ts",
+      "sha256": "7b38518bc32cc82b7d76bd21aaece504d4b561cdf9823d32de371a48796fdd67",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/domain/jobs.ts",
+      "sha256": "30c625f07b59c37d9ecc62996ec5d845739cf00f6886892601ce0d8f0e5dddfd",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/domain/projects.ts",
+      "sha256": "4147c2c8ec23fb46426b16453596994a913eae79ce1fc52b44a4f28ed31f0340",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/domain/updateProgress.test.ts",
+      "sha256": "9ce3745552b8ced7f42822ed4766cbda7ab9f3e0e5256791c190ed15d21da665",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/domain/updateProgress.ts",
+      "sha256": "830528398c9d167cd033341bab5b8d8580c5a9fb68f8fbf6d0481bac470dc9bd",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/main.tsx",
+      "sha256": "f592547ec595974c25cc12d62d93a5331d4d4d0d2555ac361470a376468b2e4f",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/persistence.test.ts",
+      "sha256": "856ce9c8874dc2069844bf19f971a79062e950d05daae85988aabd92e0cd0d56",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/persistence.ts",
+      "sha256": "a054f9499283a283a393068fc757fa2ac276609806debeb9e3e878c2b77f0eda",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/preview/DxfViewport.tsx",
+      "sha256": "c7cf5540deba163115366d8e9e2cf017d1387a6a564e3b411f1e91a8deb44d6c",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/preview/ModelViewport.tsx",
+      "sha256": "f04fbb2f6ca33d4dfe4aa2132c804e9a26de3a6116c03142a27032bb86129c04",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/preview/PreviewEvidencePanel.tsx",
+      "sha256": "0f826b51f6febcd7871973077ef48ab1d6ffc7b3ad57db12d0c154c965c77540",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/preview/PreviewInspector.tsx",
+      "sha256": "b3f1b0fdfa186361f381ef459a648ee547e5913d60276302b6edaf85dc462e22",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/preview/PreviewShowcase.tsx",
+      "sha256": "eb5b63a23c7157ac825776fb77e941ff6758af0ba55d53d3c5d713cc1b130db4",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/preview/PreviewStatus.tsx",
+      "sha256": "e607b91e4b391360741975041d9161a15b6b443767ff699488da07cdd9c95788",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/preview/PreviewToolbar.tsx",
+      "sha256": "6ca85b6cc9f292022f136ab6476e0a8a6c220afeb83613c692c9f18aed458887",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/preview/demoScenes.ts",
+      "sha256": "b5a8332e41dc7a260625f598a3364d4b1dabc6deda28026530498ce76bd02078",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/preview/dxfWorker.ts",
+      "sha256": "de84f79c5d545ae3f43b3b7deeaeee1bf930edaa28ee761b62f9b818447dbfb7",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/preview/previewTypes.ts",
+      "sha256": "59e188f20df44f9273945d799d2a7b55d775ab8061aeac6562d47de88099545b",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/preview/previewUtils.ts",
+      "sha256": "5449cd153e29947dcf0be670f390d7df577b1d3baa91d091205b25f77501f171",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/styles.css",
+      "sha256": "5ce9d746737174d0ea57c42010f5fe22c8aad17a50d135a208be00b836d7cb90",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/src/types.ts",
+      "sha256": "7e1cd87c5ee6744063ae849fb729f202851ad76d08fb49ead7be0c77b978c70e",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/tsconfig.json",
+      "sha256": "a590c6d45eb6afa9fc72c39ad1553478382b809071ab7b88061b021063a6c2c5",
+      "normalize_lf": true
+    },
+    {
+      "path": "apps/workbench-ui/vite.config.ts",
+      "sha256": "cca90b2a0f23e62bafdbbf3f15efbee75c987a31c7305c2e841fea845c15b451",
+      "normalize_lf": true
+    },
+    {
+      "path": "assets/douyin-balance.jpg",
+      "sha256": "d14a2ee69bba51f347e229613597c18d7276094ec288db96ae163329d134bc96",
+      "normalize_lf": false
+    },
+    {
+      "path": "assets/showcase/solidworks-engineering-drawing-demo.gif",
+      "sha256": "90318809c33c532de40c2abd5b6b29c234ce651b853be8ac352244940fdd4ec0",
+      "normalize_lf": false
+    },
+    {
+      "path": "assets/star-history-dark.svg",
+      "sha256": "571875f6f047f9bd06542f1d681138ec12e5420415fb3e466d260f1c0f3fde2b",
+      "normalize_lf": true
+    },
+    {
+      "path": "assets/star-history.svg",
+      "sha256": "cc35f35ebc3950fdea8c925a24d1ada78f3ab753956ed752c41e3ed224e08ce6",
+      "normalize_lf": true
+    },
+    {
+      "path": "capabilities.yaml",
+      "sha256": "15b353b6078f13333819003fd95ce7e583ef5739601a5f10cf35fbc331cf5d90",
+      "normalize_lf": true
+    },
+    {
+      "path": "docs/CAD_STUDIO_USER_MANUAL.md",
+      "sha256": "dda108c243ac8790d0e12082fafd990e9d4dec44e9f1414721a624d9d1ce2249",
+      "normalize_lf": true
+    },
+    {
+      "path": "docs/agent-framework/enterprise-agent-control-plane.md",
+      "sha256": "59e6b053223d29abebeee6829e56b4ab306d40017a8ef504429f2445bb955eb0",
+      "normalize_lf": true
+    },
+    {
+      "path": "docs/market-research-2026.md",
+      "sha256": "f88a3c2221cc3920b2c341d2dbf8432e7c58f2b859fe8069a1cb5da1ef24e24c",
+      "normalize_lf": true
+    },
+    {
+      "path": "docs/product-mvp-spec.md",
+      "sha256": "f889941b89a44e7c36be98f25cb6c9b7f341c98cc7083234a6b00ff32d225ae8",
+      "normalize_lf": true
+    },
+    {
+      "path": "docs/research/week1-js-cad-viewers.md",
+      "sha256": "0f05f565a8694ba20fbadd541b9a8ca6ffa859bdd2e208826221358761200a5e",
+      "normalize_lf": true
+    },
+    {
+      "path": "docs/skill-map.md",
+      "sha256": "a7ebe3221c88d6c8bc4129af18851fd26c0301d17b36716d0417b267a5f14307",
+      "normalize_lf": true
+    },
+    {
+      "path": "docs/weekly-delivery-plan.md",
+      "sha256": "a6c96871fdc859ad990a63f1653b8c503239e461c367d41c898651645b9a2dbe",
+      "normalize_lf": true
+    },
+    {
+      "path": "dotnet/CadStudio.SolidWorks.AddinHost/CadStudio.AddinHost.snk.base64",
+      "sha256": "3bd690509daa4271cad268adbc5dd5825d888e4ac90737344b837df4d6f9332c",
+      "normalize_lf": true
+    },
+    {
+      "path": "dotnet/CadStudio.SolidWorks.AddinHost/CadStudio.SolidWorks.AddinHost.csproj",
+      "sha256": "96ce96278fe5d9c4b01bb08f5b1fe3daab84d2058ffc465bf5e3ddc9b1b280a5",
+      "normalize_lf": true
+    },
+    {
+      "path": "dotnet/CadStudio.SolidWorks.AddinHost/HostDiagnostics.cs",
+      "sha256": "f2a3b76144bfffe8bc137cca1095ab10d2e1da445cf15f9005b95b27969f2410",
+      "normalize_lf": true
+    },
+    {
+      "path": "dotnet/CadStudio.SolidWorks.AddinHost/Properties/AssemblyInfo.cs",
+      "sha256": "75f433b8bef9c8f39fe07a3b86306df9ef026bf487994f933ca31544e282b3da",
+      "normalize_lf": true
+    },
+    {
+      "path": "dotnet/CadStudio.SolidWorks.AddinHost/PropertyPageHandler.cs",
+      "sha256": "bfdeb70d0a7cb816496cbaac2d267eb02de5b6acd007143cd7d61af4f40f10d8",
+      "normalize_lf": true
+    },
+    {
+      "path": "dotnet/CadStudio.SolidWorks.AddinHost/SwAddin.cs",
+      "sha256": "adcabc0bbf6c4f0b58c763099d6e4b0078a74220cff2ed652524c5efcf5b8b3f",
+      "normalize_lf": true
+    },
+    {
+      "path": "dotnet/CadStudio.SolidWorks.AddinHost/TaskPaneControl.cs",
+      "sha256": "ae9bfe22e34d8072065197ff52d8d82a0f7d7de326d9b2d88997246a7f7c076f",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/01_basic_part.py",
+      "sha256": "8aadfdff87a3419efbadfb4a236b2f60e94cfba2ef1ec590b7139bc916a2a3b4",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/02_complex_part.py",
+      "sha256": "1ec1997bb81f417e89ae4829c61e6543ac6db1de16f27ff875b77de5390433f2",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/03_assembly.py",
+      "sha256": "9fbec259c9865ae13613cfcc48dbcda3e0b232c2fc2da69c8d39a19fcceed43e",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/04_batch_export.py",
+      "sha256": "bd20af07a1557f30a274629045396c297c724d92a55b6af6b40326f38ff2ab7e",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/05_drawing.py",
+      "sha256": "8fdbd62fa0415885c6c3704700e1b98e261e1703680a415a246fb9fdb9f9c252",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/06_friendly_api.py",
+      "sha256": "db0a2a414d02784bf928355db241c2567dd59cf8ef6ddaa9ae619ba54ef9adb2",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/07_motion_study_rotary_motor.py",
+      "sha256": "f53356c4e35d94835811c36d962bef297f1d52bea5ae6dc9f2c2d64dfaef5a1f",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/08_mini_fan_motion_assembly.py",
+      "sha256": "e485895042001a7e5f0b17ab4b19edd2678cb588f152f797440d335709543085",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "8d8d2d28619b77af60f1ed95a17fa6b51a745cdec383540f3d9a90838ac31b11",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/fea_tetra_static.json",
+      "sha256": "19a3376c6375911db84d39cf31269a97b1d99170996ba4c9c55a2aa16257a628",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/generate_fea_convergence_example.py",
+      "sha256": "f8f43e1bf3282f5e587e8cd1c3b2b9d0e696885805a2a2463cf4ddf7c47365d0",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/ocp_loft_adapter.json",
+      "sha256": "75cf79bfb500e14654a967f04e678a61a315dbec319a007b82a7ead172cd3715",
+      "normalize_lf": true
+    },
+    {
+      "path": "examples/weldment/coremark_hss1x1x16ga.json",
+      "sha256": "9570b2fa03a3b85afe1ab3cddadf9e89d91df85aca7fa4853676a739bbb55adf",
+      "normalize_lf": true
+    },
+    {
+      "path": "golden-workflows.yaml",
+      "sha256": "5e244249fb3d64be932e4d7a6bf8d37b8f39d3bae90d983780348308990e09e0",
+      "normalize_lf": true
+    },
+    {
+      "path": "install-layout.json",
+      "sha256": "b6fc24736f23b74023b0a4c502f3cf263e0276a425ed1ac8b1dd323c03740406",
+      "normalize_lf": true
+    },
+    {
+      "path": "install.js",
+      "sha256": "2d6dd71b0bc8e08881d2f9bc64bedc01ee6f0c1fa0b55a55814be2149284d154",
+      "normalize_lf": true
+    },
+    {
+      "path": "install.ps1",
+      "sha256": "26a3c5623f8362c0cef4057b6a1c19a602362fc9b2e9ef48bf85547f405e7e8f",
+      "normalize_lf": true
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "38b507043e6387fbba40a29e2159d7985522b6d2d7bf85746056067d2b2b4279",
+      "normalize_lf": true
+    },
+    {
+      "path": "mcp-server/README.md",
+      "sha256": "55ae1c4ee3d2f2645f31c5418c24466a3e646cf9e130af7ea5af7e8f8edc1093",
+      "normalize_lf": true
+    },
+    {
+      "path": "mcp-server/register_all_ai_mcp.js",
+      "sha256": "33c110b59339171979e0688902ba11dfda87367483a29c5f30507c4b343d2bfb",
+      "normalize_lf": true
+    },
+    {
+      "path": "mcp-server/register_all_ai_mcp.ps1",
+      "sha256": "fa2e3096dd2c8896ad8b5a3754b623d9b44e9226d9578f140461d39ee16182da",
+      "normalize_lf": true
+    },
+    {
+      "path": "mcp-server/register_codex_mcp.ps1",
+      "sha256": "28ac36aae9931714d80a5a55e6ae20d2e5f5834a92439a99d907845b8930760c",
+      "normalize_lf": true
+    },
+    {
+      "path": "mcp-server/requirements.txt",
+      "sha256": "19949f7b06c84592646ac7b96a4483cfbaab7fa36ed26c5e64e728e29eb531b4",
+      "normalize_lf": true
+    },
+    {
+      "path": "mcp-server/server.py",
+      "sha256": "80b73dc56e6083453ab71fd185c8ed9159f7e3a9f9afef6d33eb647d597ec098",
+      "normalize_lf": true
+    },
+    {
+      "path": "package.json",
+      "sha256": "b07eeb5e052890fe63335f7707d7052dcd50b74540800f4a42a3f87cbd9e9214",
+      "normalize_lf": true
+    },
+    {
+      "path": "project.yaml",
+      "sha256": "baaf8808aa55bcbedbfe6d40304e05a8538e82cce52b47944e16ea3bd0d961c6",
+      "normalize_lf": true
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "f602ff615af8d23927f3b767e36fbb4a87d9f8ac96a221ff8ce2cefd85b29213",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/advanced.md",
+      "sha256": "f431e286d402ebfbd986e893b009f2f90939254b795f3ec0b48d5e6cbb0db3a8",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/agent-provider-architecture.md",
+      "sha256": "577e080e4c78913c29d38cf09ada249cbdf25d39ea7e76af5e1df05838459a97",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/api-lookup.md",
+      "sha256": "047a74b9c0b1dc19e7888e6bcc3e61d6f60e1ef7d78a2506639f47b9ffacf964",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/appearance.md",
+      "sha256": "72c5ac31fca001705a05a1da4e334734742f7d5beaece2b1b8d6e6d1bea1c8b7",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/assembly.md",
+      "sha256": "322744fd36c61535947a05b8625e86c8094913e3e17732a94ee42b270030a382",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/complex-hole-features.md",
+      "sha256": "d05f4ee02b81b4963b1dfd96f3964b64fd6bbac5804921a0595e3e75ad6d6a7c",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/complex-mechanical-routing.md",
+      "sha256": "a1470dba6d13d0f11d1c2741d6322da373bbb17cd54e05477fe45a1186e4f59c",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/drawing.md",
+      "sha256": "994a954c79f31cbe2acf68325b0f9b2e0cdf0197bd847f1ddec622cd2f077273",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/enterprise-agent-rag.md",
+      "sha256": "7fec6a3361b77cd36cb5345b8ed3ef1f8c69e86e52d2828000616ede1d8e30b0",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/export.md",
+      "sha256": "af693ad7ce8d0d1ef5d929e74b6716eb6f745b84cb2a447b793cb22f13549fa7",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/language-backend-routing.md",
+      "sha256": "5fb1f518a8bc30b7a5f7073b085371f56e56471193352e5e9fd205cba456e39c",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/mcp-server.md",
+      "sha256": "07363214344ab0d2dc69b016b24609a5efa7e5ab1681b725094b600965eaa5b6",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/mesh-reference-import.md",
+      "sha256": "2ed839d35d8972975202393fa5ee72e964f41feb35f30f8c513d8cfb25d4ad72",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/motion-study.md",
+      "sha256": "01c761f8c28c124aa211ac21808359d07fe89b37cad39b35b0c8773349c5c418",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/openclaw.md",
+      "sha256": "53b827d25500b53a52e65082de9fb96ad8a073eaee3f3bcd710b0289761c7c2f",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/part-modeling.md",
+      "sha256": "36245a3d5757cd7c9d9b75a2e30bf407fb432799c593c56409c25f2766c534ce",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/review.md",
+      "sha256": "7057f15dccbdc168c5c91d033c3e9e74d02271a33be82937681fa6843489781b",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/solidworks-addin-host.md",
+      "sha256": "d88e68e68cdeb34361465999a6edbee35512700cbd716ccb43e052ce4c7b4763",
+      "normalize_lf": true
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "sha256": "0a1500caaa8cd92419a6050ecaebdc1a2697bec886b7867437248647f70685ee",
+      "normalize_lf": true
+    },
+    {
+      "path": "requirements-mesh.txt",
+      "sha256": "80660286bf45ac987509c275f0f2dc1faad64bf36af5aa72e28d89b14c03eff0",
+      "normalize_lf": true
+    },
+    {
+      "path": "requirements-occt.txt",
+      "sha256": "232b9cb2f56dd4174232eb7eecadc5d5be1bd504332c353b62213c9b4c8e108b",
+      "normalize_lf": true
+    },
+    {
+      "path": "requirements-pdf.txt",
+      "sha256": "36ab08d76cd8a1c0b0d54bf5b3757ad9ed867938bdd4ae701384a986ad59b31f",
+      "normalize_lf": true
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "1d9ff8eaf149eab0f08c73e7293c7a5628dfca991e8a4750b492d834bcba2202",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/__init__.py",
+      "sha256": "d308198a5e3397c748a1fdfdcbcb03830d649f04a655a78a33267216f38e1c6f",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/advanced_geometry.py",
+      "sha256": "076c684ee23b8cf15ab2a47afa0df6af705b0f999dee9794b9855aee9bbcd23e",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/advanced_geometry_ocp.py",
+      "sha256": "8a195286e863978934fbe528f5ca440d7ebeeab2d9180a0d6ef1a5e643f4cac5",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/advanced_surface_ocp.py",
+      "sha256": "82246a75cac3c487d94d50ac275d8224cf083f940e8a7025ea349d127af51991",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/backend_router.py",
+      "sha256": "7f08eeb57ddeafa667c2dfb633295b71e815dfc2ca8fa0c18095948aad8c1606",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/build_smithery_mcpb.py",
+      "sha256": "5df6cc7906cc27b43c056591ed0d8ac15b15e466e3b1bd4ae98b873b0f8e7071",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/build_windows_release.ps1",
+      "sha256": "d5fd956b83c45da8f57a3c03af7c8a4ac82736b78bfd94a4b4c87f6bfb2e8a93",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/cad_diagnostics.py",
+      "sha256": "bda5a7803b9e04cfde421ec8b540b23a5fa062dfd9a80bc165369f3e23069281",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/cad_doctor.py",
+      "sha256": "601813770335bf031ffe15f60fb07c03d475b992e473d0eb45d7c0917c604946",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/cad_installation.py",
+      "sha256": "a7af852f09e55568a2a26dd65bc8cf2d60d22b0927f8fc92601312d8a39fca25",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/cad_studio.py",
+      "sha256": "a41e1555430d562e0ec126792af173122a7bfd44a3842df2b6bc4787da7b0753",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/capabilities.py",
+      "sha256": "5472082c1ced02d5d50edc39b36acd590bbe31266bebd71a5859c1497ce708cf",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/delivery_compare.py",
+      "sha256": "d1e49666b4ac504baffb29a2799418418b892134e46c9b0b931ccf2c8ac605ce",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/dfm_profiles.py",
+      "sha256": "eb0018b5e10a90e2a9ff970f24138fc6723685b89fbb6f6d0f7636450d89b6d8",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/dfm_review.py",
+      "sha256": "891ab8a11666eadd09740d3c8bb8d908a0222e89101835aaa40a28d6ad600198",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/drawing_spec.py",
+      "sha256": "9cff92d7ceeb00a1fb9a906cdac6e700259d21b4b62b2af07b11ded9fddbc97b",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/dxf_preview_scene.py",
+      "sha256": "fc501a8b498a69828bfd6dc5bf94c5956d11714740eba8df6e7c8aeffc60e433",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/fea_analysis.py",
+      "sha256": "c6ad9813e0380264cbf98aa1cb0e8996f82d2eaae153d49a8ee19d701c216023",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/fea_convergence.py",
+      "sha256": "795e703535db6b3963a192407cce7f6daed99eabf33fe631e8e5af272fa36590",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/generate_star_history.py",
+      "sha256": "0338e8d6783457c262bd2216649039f2fb0500984e29b2974f8d6a1754cf62db",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/headless_cad_writer.py",
+      "sha256": "f3d9b230d8898dfb354390b60400096c8e19c1a5dafbf2760b5b8aa07e455c34",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/headless_occt_service.py",
+      "sha256": "a9296dc08bafb36136008165eb8c06deae03bd1f6468ced0f3fcfc55bcc0f0a9",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/release_check.py",
+      "sha256": "fb3c4e9ddf47ac6fb559a4af129076adc9e0564bc56821e7cecbf22e456ea611",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/routing_review.py",
+      "sha256": "ea5dae6b89e2b7d92d01f97b8f348b12c5edcbd102c1bdf6f80d83b984e56460",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/stability_regression.py",
+      "sha256": "48fbf73fb96139f56a1cc7393ddf0116096986c50845c768953c28351c895517",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_addin_host.ps1",
+      "sha256": "b823e4d2767660c470ce215568e7761490ad3693aec7905a489c6ae4d5363416",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_addin_host.py",
+      "sha256": "cf68ffde3deb79ebab99455cb73b56b8b318a6ae1c2b5b2dbfb7a6ed7533ee58",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_appearance.py",
+      "sha256": "747661ebce0c65874c1b5f6ae8a945c93e35ce210cc5732338215b714d0600bb",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_assembly.py",
+      "sha256": "3c92453c6cebb700356fd639a94c689329b9f0e8e4a64d28ce8bdce21090aa8d",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_capability_probe.py",
+      "sha256": "ff72f047e2b64ef86ad1bef090c449ee6f9c847d5b77d20ef5d9b08351e7bc1d",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_connect.py",
+      "sha256": "e2abf801566c21040d18efa0c54a3c39a91e4cb3f3ee3fa67dd1a5781252b1e2",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_delivery.py",
+      "sha256": "48c7858dc414a57f6b628fad19a4cddbef1d199706089167dd3c07d3eedcee4e",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_document_data.py",
+      "sha256": "157bc77158251194d4930fa6919aa5f07fa4f1fd9898b3be155ebd6b9015ad1c",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_drawing.py",
+      "sha256": "834fb7fdb0ec1a77ff9b2c1186f1d8294342b425b5321082e1addb9081882859",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_drawing_review.py",
+      "sha256": "e25afb3455f1af86d2ac4e4200196f5be400d4560222d9581337904af25e3650",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_entity_reference.py",
+      "sha256": "10841096283fec9742621ad7d93b9ba2161a4f90dbae7d42a433c52d0a836d1a",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_export.py",
+      "sha256": "2a71738605a5f7614826da72d7be0b4ddbdda8bffd061ff5900488de774b9218",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_hole_features.py",
+      "sha256": "b500ac53184335358ba18b9bb3e09b39768497fa9881b2f48c45331fc9a6b572",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_import_mesh_reference.py",
+      "sha256": "1f37ceb5f90eaf88ea66537a8d5d8d61f870cb961dbd705e40cb1aed67549539",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_macro_guard.py",
+      "sha256": "ade23996523ffd826fb0236a080516a145d94f221c351dd50b1d3d1eaa677929",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_motion.py",
+      "sha256": "2aac7ac1905c5a3fa45415b68579f4911f9d90a516f8635897f0a880cca6fc48",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_part.py",
+      "sha256": "8057eb884f3e3837a83d8298752399b471ef019b4a1f795eaf48824881a3b79d",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_preflight.py",
+      "sha256": "85fbd2fefb0ef5a28c36668a3bda07388bdf26b4a4fa4e860e1ce7a71cd79060",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_review.py",
+      "sha256": "cfcf3e42385215299f3c50e2880b81f893e6e3a8085b465db851f02b5b87b440",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_session.py",
+      "sha256": "e43550e542129b1f6bd79ee98ff1372815419b74f1b32f069eace79442ecbcd0",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_sheet_metal.py",
+      "sha256": "ed48fa0d0c6912e3118db5f196895af1cd35b592940055fed1bfcf8c0bd2f08a",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sw_weldment.py",
+      "sha256": "772de395db6559b5c80a6c110ed3929294f697a582818d1d26c2f7b2c64367f2",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/sync_bundled_skill.py",
+      "sha256": "afa111227be3535e4c1974a37aca1f8a9c3f70f70e2b0a1b654c429d08ae8819",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/update-install-manifest.py",
+      "sha256": "20ff8bc9be3bf995638f6f4bf598eab5bcbd16a7108d57b6058f9961d88cdc55",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/validate_mcp.py",
+      "sha256": "ce7c0df2ed490a27dcc1e6495de11a99637e994c57138dc55389063edf7fddb3",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/validate_skill.py",
+      "sha256": "9c007ae63557666c525c4a6290daac9e14e612883bf0184f1e4e9c32e33a4e65",
+      "normalize_lf": true
+    },
+    {
+      "path": "scripts/verify_updater_release.ps1",
+      "sha256": "d2059b9923a4009e294e4c9a071ea2ebb0af7fc3e9d01424f6d2467d8f62a213",
+      "normalize_lf": true
+    },
+    {
+      "path": "setup.py",
+      "sha256": "6d9e8fa9b81c789f7ad08f912c1aef76d484ae6bb9cb60ab6061b38fc36484b0",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/README.md",
+      "sha256": "0f45d0c0de7252dcca841c9827b12539e2eecd8ec93ff3f1b050136ea021ff71",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/SKILL.md",
+      "sha256": "9ae911c71a31dc656420d056b522321a0a30ccfe7a601902e07cbf5a56526ccf",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/dotnet/CadStudio.AutoCAD2024/CadStudio.AutoCAD2024.csproj",
+      "sha256": "52afd02018b143724881c6c93c83bb0bc7ed20d5612a182b3c3bd94206c0221d",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/dotnet/CadStudio.AutoCAD2024/CadStudioCommands.cs",
+      "sha256": "0ae3257b3b4ea1b4aad3dc0bda826e14218300231fec9464aec68dea3e10a74c",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/dotnet/CadStudio.AutoCAD2024/NuGet.Config",
+      "sha256": "f545a7e2ea14ac53cdfb91217cae67b8ff14275313f6298f9a3331d205b6c948",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/evals/evals.json",
+      "sha256": "ca4b794a0d06df86019363c5bf632c501fc0618dba8a36efa9113e0e2afcdd3f",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/examples/draw_mounting_plate.py",
+      "sha256": "89fbed5aa22750ce7014b501e87497c1cce5b1cfce5acfef612cbb91322fddbd",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/manifest.yaml",
+      "sha256": "728acf6f755e1bd54dc7ca21c98ae1c1a8d43995bd38130513df2db951bbed30",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/references/api-lookup.md",
+      "sha256": "76528abf1e7cc328709a4750946e844a5507eff418ae3b61d1716bb994860b16",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/references/engineering-patterns.md",
+      "sha256": "e0db2027dcb9fccb5bf394fb8ea1a8a6d5b2470ce29594dc9c465fa8fbdc9f3e",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/references/troubleshooting.md",
+      "sha256": "1d3011f34ef6933e83bb83ad0af6717dec2b349a14ec59c28536855bf806a25c",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/scripts/acad_dotnet_preflight.py",
+      "sha256": "42f5acf59e7198964b45a478ecd247ca30ae5d1e5de39d993eba24b83ee386c5",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/scripts/acad_dotnet_regression.py",
+      "sha256": "01da53e5778e50b9bf2be2f4d6bc55ef57643f578edfddf740fdc0c480e9bfc1",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/scripts/acad_draw.py",
+      "sha256": "d32d3e94d4452bb961a1366281fb00cb1cba27bc0387fb41eacacc8a853996e7",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/scripts/acad_headless.py",
+      "sha256": "f07825006969fc2fcd5ede1f1a5a1510ed5d48d4a56298801afa2d3266d337a9",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/scripts/acad_preflight.py",
+      "sha256": "3cf7b26820e31a71b14b4095060972c3e683812f39e31fee487eb751e9ab2279",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/scripts/acad_preview.py",
+      "sha256": "a62b3418aa7490f474aeb6288e14de911003090801fe746908e9eb24f73e7872",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/scripts/acad_review.py",
+      "sha256": "c1b0471ee1237008cbb13f7be7805e642c176b977a17b33e30b44dec1ac6deb5",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/autocad-automation/scripts/acad_session.py",
+      "sha256": "053acc7783213c55bc9466dd9417d5a7226e067513dc43df7e2cc80523b598f4",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-engineering-drawing/README.md",
+      "sha256": "4173c8a4126d5edd76cf87f61d9c5b3eee03eacaf561015a08918cb0e7d27133",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-engineering-drawing/SKILL.md",
+      "sha256": "32c01cecc2f10f6f86fe20de826ed014e33a2ab415ea6352ad608c8ebf715d85",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-engineering-drawing/manifest.yaml",
+      "sha256": "d443418166884d7dc21e64102dd3f2189f840db9372b0039d465a3855708c962",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-engineering-drawing/references/api-lookup.md",
+      "sha256": "d23fac467ccf52b1f04f6fef8e9dfe5f11bf673ad3f1f34517378b885ad8f938",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-engineering-drawing/references/drawing.md",
+      "sha256": "0278b2c705d1b025cfa57f2e1ca290f9a6c88ff4f8a611606c0efd0cfdfa3e9a",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-engineering-drawing/references/review.md",
+      "sha256": "d4cc1d97224726c4ceade4630e86da355cb400b863d0591835cea7f4952cad78",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-engineering-drawing/schemas/drawing_spec.schema.json",
+      "sha256": "ca05ab09cd467394c399d030b7230b13876e4358ef6d78ef384e538aeaabaaf8",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-engineering-drawing/scripts/__init__.py",
+      "sha256": "97c65b307462e3569c1291b249d1072f7ca1dc3745cdfb542810f69d95f769d9",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-engineering-drawing/scripts/drawing_review.py",
+      "sha256": "8286795296a485a8fbca592fe62f3dedcdbf63424941d1ea307365d5cacad501",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-engineering-drawing/scripts/drawing_spec.py",
+      "sha256": "e22571f33899a35bda2fb7a933bb7a0e18102dbe70fd1d0ab389ebd0327e1120",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-engineering-drawing/scripts/drawing_workflow.py",
+      "sha256": "2ed7cb1f694e72d8d65066fd3e9bda7f7d01abde619e3cfaa41785ada6696ab3",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/README.md",
+      "sha256": "5481e024730c6219b1245278aad9943fc0de4558f2eea290152771003dcc1c73",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/SKILL.md",
+      "sha256": "37b93a2cd8e68f19dbf7a9ad510b59169cfb97fb1c70ec7c81797e6618a70524",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/agents/openai.yaml",
+      "sha256": "a1d5bf93f7a198a09db1f1294376194fae0ebb680ef4e3672a7a4616fdb16d6e",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/evals/evals.json",
+      "sha256": "9d0ef6b3bacec84dddcacfad82e1d8e3c1826e7eaf5922620907d8e4b3606ced",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/examples/cnc_mount_precision_params.json",
+      "sha256": "e8d39609dc8279d91f3ec9f3b083cfe7ed476df587e57298432f5d1f60fa5675",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/examples/open_source_corner_bracket_case.json",
+      "sha256": "4505dc764b5fc6433d3b628b315a1f4c776d9238d1da5f64abdad9047563f367",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/manifest.yaml",
+      "sha256": "84c05a8bf5b100362ab539a2b7e9029f4164ef8e09ea22468fd4280a1b90c29f",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/references/cnc-fillet-chamfer-lessons.md",
+      "sha256": "1075ad547e45d3c47c48cfd8fe088de526734e4863941e086f2d3a9095f9eb97",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/scripts/advanced_fillet_strategy.py",
+      "sha256": "bf59d94e229c5d18e10c9466a3e4e6d65d7fd5e903ea3b75d8b95eeaf08d90e7",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/scripts/cnc_strategy.py",
+      "sha256": "6b867efa55643575c7a22a3d767f963c89f07cc730ef926fd70e164533ab8fa7",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/scripts/create_cnc_mount_template.py",
+      "sha256": "ebce61482c6eca7fcff184aed47d66cca8ccac988bd03fa9bcaf203d926e9be7",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/scripts/hold_line_bridge.py",
+      "sha256": "ff479e00db9bd76b4ed5d24e453fc7f483b77007d74beaa6e358c18d2c69b0a3",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/scripts/native/HoldLineBridge.cs",
+      "sha256": "8d5ecfc583f0922e49ff75c0842a0812e4555d04e966ba6b9b5567497daf387e",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/scripts/native/NativeHoldLineAddin.cpp",
+      "sha256": "58bef177a5de0556c9b1a9bd98a2d1ff0b47f4711de30e5f947dc8f9c5d780c1",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/scripts/native/NativeHoldLineAddin.def",
+      "sha256": "93969c1df0d41bac52917390f0bfad21b0de14f799aa220707c454a9c2fb01e9",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/scripts/native/NativeHoldLineMacro.swb",
+      "sha256": "bd94aa29751ca7bda273682d9eb1c1da08dd92f5c47dbe694ee26c67481fe0bf",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/scripts/verify_advanced_fillets.py",
+      "sha256": "7e84d76641e17efc08ba89719139a5456467a5595739815f0b10e3145632cdf7",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/scripts/verify_open_source_bracket.py",
+      "sha256": "ae734d5cafd52c4b1f4a573c7dcf26387ce1978d1318fd70704cccf6a8c66dd4",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-fillet-chamfer-cnc/scripts/verify_open_source_complex_case.py",
+      "sha256": "3d1fe29dcd63562f2e453f0ec69bd26be6fac41f5ba043e914372af6e5b5b942",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-threaded-holes/README.md",
+      "sha256": "7115ffc50684465fe79211b67fc7222cde1553598aa116eb1e342fea57aa21a4",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-threaded-holes/SKILL.md",
+      "sha256": "03b1ef72ec3ebfd4f0cbfcc3b65f157b5ce26dd4efbfa6a0bb1daebad6f06c18",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-threaded-holes/agents/openai.yaml",
+      "sha256": "ad07070312c3d81babc28fca14a4f2f274552b21a5288d07602e1aeb6fb3aa92",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-threaded-holes/manifest.yaml",
+      "sha256": "de3090cbdab38124fd4c18eda22c1de7e23f28973d194206b17b53e969793d78",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-threaded-holes/references/threaded-hole-lessons.md",
+      "sha256": "23147cc1547bd76cb41d970ce409e2410890c79e216552acd3b1abc16ef6c1c8",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-threaded-holes/references/threaded-hole-roadmap.md",
+      "sha256": "76fd2827f0ead32bd7fd1517acd43d9f49a9cca3e83d38409da10bf47dd41efc",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-threaded-holes/scripts/create_threaded_hole_template.py",
+      "sha256": "c53d8c14129bebcdbce781774b14a83a3d3b8eaed49fd469266cf04c9f149902",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-vibecad/README.md",
+      "sha256": "916e21d9fcd817d7d1f2a33882598c4548a7ad9e71b3ffd1059f60eef1c0be64",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-vibecad/SKILL.md",
+      "sha256": "c6c8df937f7b654ad1418130b1c6f55db1a8e0548a11a1964c57898f8ed356f8",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-vibecad/examples/motor_mount_brief.txt",
+      "sha256": "ac60f57e8718f02a3de01aa452400a0c6955b2a99a0a7872ad391dbb1ad850d0",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-vibecad/examples/motor_mount_execution.md",
+      "sha256": "6b18ab57529e9b0bdf892551d7542abc1da78ec466c1c08c3d6f290a5382fae5",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-vibecad/examples/motor_mount_plan.json",
+      "sha256": "8e270f6b09463479203d7679e6cf2c3ef7f2d3ba9747b15805f12c81f829ae48",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-vibecad/knowledge/manufacturing_rules.yaml",
+      "sha256": "cb68acbe2c6000c5c9764b931127f40ddb649e58d7e5dcfaa7cea42427679e9b",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-vibecad/manifest.yaml",
+      "sha256": "d1d0aadc0a971b42bc029f3176e9501e91e5d995bb1ee71cce8191d040ee9fac",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-vibecad/prompts/solidworks_parametric_planner.md",
+      "sha256": "7106e546fefeb6b34e9303702004fd014bc6b041367d0ea0137a4afde016d854",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-vibecad/references/vibecad-roadmap.md",
+      "sha256": "021817f69b0d4911bc39e9413057c1135625072e1f228d1a1f21b825f820fdc6",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-vibecad/schemas/design_plan.schema.json",
+      "sha256": "3444b9f21bb0a50851353853a8749350bef3f86babb7978ed6bc62f1723bc377",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-vibecad/scripts/plan_from_brief.py",
+      "sha256": "2d00187b5555774e0a4525a2144d9afa7d8a4a205011d8c88a73e8713468ca32",
+      "normalize_lf": true
+    },
+    {
+      "path": "subskills/solidworks-vibecad/scripts/sw_execution_outline.py",
+      "sha256": "3dc642c65dbd22411a1619f427d4caeeaffc10fae9c0776afddab90470f29561",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/autocad_week4_drawing_regression.py",
+      "sha256": "a531bcfc7aa8f4910e9fe90e0f734b73389af8d3812d520b202939a4606cbec8",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/cad_studio_weekly_regression.py",
+      "sha256": "95abf8cc08945c2ca83985d5a0332658b587eb4ff0a8574e761d3f7afd8832c2",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/calculix_nonlinear_convergence_regression.py",
+      "sha256": "2cb354224f44a50b7044404865bab43b54512288dce241cd5b2135872f8eba88",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/calculix_nonlinear_regression.py",
+      "sha256": "51f45ff44607211b1c2fdb2351e4b2a6c9cbda0de420506bf346a81cde0d2b5b",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/solidworks_add_component_regression.py",
+      "sha256": "36fe94694ce1771b301e632c3352406b845d5fb7ab97814c09174bc8ec9a5614",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/solidworks_addin_host_regression.py",
+      "sha256": "206606d499c10648d6831de58b3f9fdc49f427d74ac205092ef77c5b539ad9b4",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/solidworks_appearance_regression.py",
+      "sha256": "56d2952c16cb607b0b7e9a6f7d12450cb012b4195653eac8fbed042c89590386",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/solidworks_configuration_family_regression.py",
+      "sha256": "7f57666b2143cfa08ac0236d9572bc03e6a9dd11b11a2449a3785f1567468d6a",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/solidworks_drawing_version_matrix.py",
+      "sha256": "4eddb5e5acd8e16ef8e2c7b3f064a926bb1a0e1b0abab0eb8966a1aaceba7970",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/solidworks_loadfile4_import_regression.py",
+      "sha256": "079e4030a4ce0f967023a4b7699db65f9a46fce3a2b6acd5b8c05210d1dc0c1c",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/solidworks_sheet_metal_regression.py",
+      "sha256": "f38ff595277ca1fccea3c5232bede90814aeb515464cbe4b423190f78da77939",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/solidworks_sketch_selection_regression.py",
+      "sha256": "6793a3d0473fb02ae6f53380780801f4adb6ff94a7c682e25576e9fb45b36706",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/solidworks_week3_delivery_regression.py",
+      "sha256": "be9d7a130503855f59c5f5ee3bffdbb2c4a6dc07427a3834f568a621de61f245",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/solidworks_week4_drawing_regression.py",
+      "sha256": "0a10b228be465410220aa7682d7b5d2bd529b1177f52eb2304b925e9b550a93f",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/solidworks_weldment_regression.py",
+      "sha256": "7b3add8f16e66fed46f782adf8e9c6349c30d0b0ca16cda9177eb85e0444ce2c",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_acad_dotnet_preflight.py",
+      "sha256": "cde3f9589aa6ed1d3aa75538ee8d5003c493e022f82c77a8e3a468adb85e86c0",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_acad_dotnet_regression.py",
+      "sha256": "153252e7d557926bae4b289b065a0b7c7e436f9934698f8519cd85cab5a0f03c",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_acad_headless.py",
+      "sha256": "1ae8e65a30f4a39bd727dfb33a3a39fa134c082c7e06f983a1f419007f7ba774",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_acad_script_backend.py",
+      "sha256": "b314a8dd4d64a016d62477bc478d966db60f4df31b8385108c6f020cc2c081fe",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_acad_session.py",
+      "sha256": "0046e560cf3f8e17bc48e4458591eaf1eb0eb6f90e4c55df6a35b61958cd58fa",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_advanced_geometry.py",
+      "sha256": "8607b03729b7d8c764019be7febca79cf5f816139a7184f50f61fa4359103cf0",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_advanced_geometry_ocp.py",
+      "sha256": "fffc16d35a4bd84a48e1361b552d414b5ba8caddd506bcfe4f8335e7ebcfb9e5",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_advanced_surface_ocp.py",
+      "sha256": "9b25f2af89a42f8c2bb04af8cf89a3e7f740fd8cb405ea46026160eabc649613",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_agent_providers.py",
+      "sha256": "3f9b59d56c1f7e631185eb7e1e457df8531d5dbe75d52fe776c20148c4d2a270",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_cad_core_contracts.py",
+      "sha256": "3f7e550a836b6e694835987dd90dabe45c88a9c98c73b010da2265104b641849",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_cad_reliability.py",
+      "sha256": "1abd25ef1a3ce9613b59372cd076c0bc8e0c8cb709684086f6312b6470d912e3",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_cad_studio_cli.py",
+      "sha256": "5af856fbc0846ad463a461c87d18f3e2c22e6cb469eefec2c474fbaa421fccc5",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_cad_studio_weekly_regression.py",
+      "sha256": "0a8ca44bcad21ce9405e0a24897015f1b74b88abfae6ea70fab140b27d763969",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_cnc_fillet_chamfer_subskill.py",
+      "sha256": "22aa0c1233f9b6b5230f6aa062c36f7646cbe908398d5d0a780c15949c6af4a6",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_delivery_compare.py",
+      "sha256": "1b632f6dc9d4911ece064bdf8bfcf65847ee9e895d48b07a5a475642e668ac86",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_desktop_mock_runner.py",
+      "sha256": "3442f0e45e54c4815c4043272445181ee24653c49630c9fa016374be6f11e2b5",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_dfm_queue_worker.py",
+      "sha256": "0fb507b34c8da4ed65a5a3e5dab9e04ee6cdc473d39fe80ef54694ec97e9d74c",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_dfm_review.py",
+      "sha256": "287db216c8839ac31436ed221ba34dfe6c5c98f51ba0355ed63572596719bc14",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_domain_evidence_status.py",
+      "sha256": "b9d4158f567ec13d02095bed2619059407c0f0ddb89c72e9ec534abee752af92",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_drawing_subskill.py",
+      "sha256": "d4e719c468fff4351bbe598e804ab60c93a6bb3f32715635d0420da5ce2f1c42",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_dxf_preview_scene.py",
+      "sha256": "353a42f8075ac613f12d4270d77cfa5eff0df3bf75cef21d8882e2d467f07105",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_engineering_orchestrator.py",
+      "sha256": "80f7f3bf89ef5ce2d645270561e726119266877e79eac9d0ed1747bd623c4607",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_fea_analysis.py",
+      "sha256": "b16be0b7f9794a22d8e7fd7f8121830bce0a7b8f9303451a2609b09a3d1b6917",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_fea_convergence.py",
+      "sha256": "04b347353d5d89fcc84455be17bd705059a1871ef8f176a4c8909ea4969a6a87",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_generate_star_history.py",
+      "sha256": "21625fa05a1d40d1561c7c39c4c3f32a2b27bd4efaad0c335e256b1f87a04bb5",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_headless_cad_writer.py",
+      "sha256": "bd716095290948b80f88a68ef31e24c8ce214c79e1000c67c5fcac3ffde1ae8d",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_headless_occt_service.py",
+      "sha256": "cc937465bcbff67ceb0b26ec8753d358f9bef503e7a7e65f82423018b8f83910",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_job_evidence_fields.py",
+      "sha256": "0eb9e46f00d27c9cf6cbcd94485f74608b694680f58bba95e3a62a4afc80f1c9",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_knowledge_retrieval.py",
+      "sha256": "d1316e1e782dff6bce97f6b322596984d7272dea5d2dafdfbcb3c582848da82d",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_language_backend_matrix.py",
+      "sha256": "0451921286c1053f112c63816e502a67a78cd73165f4d51e1b1bc11886273684",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_mcp_backend_router.py",
+      "sha256": "165fdd7139e7e59182aca78bd1a1682a11a4fa95b78a038efe1486243439783d",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_mcp_configuration_tools.py",
+      "sha256": "7c0805c27501c946f3273192d3cc9870b71c5443d4c6718739a7608d318877d6",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_mcp_drawing_tools.py",
+      "sha256": "2020696ed3115e878caa0ae25d2201cfff4b89d3495bf49359f3cefc5e65b8da",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_mcp_headless_open_format.py",
+      "sha256": "60e150fee67a847eee959f61f361606062310847c2d0f266062deee4858bb748",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_open_source_cnc_complex_case.py",
+      "sha256": "da0323944ed9bbeb062e4518ec542f1fc1851bc919af1812d0edac382e1c1bb0",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_release_check.py",
+      "sha256": "3f476faaf2ff3f584c06147b004af2c4ea8765cd20afdcb8a7592af7142d7905",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_routing_review.py",
+      "sha256": "ed3276daa1d11aae2caa72c2f528c4968e78a3022399ea8fab3a647c2a839cce",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_solidworks_drawing_version_matrix.py",
+      "sha256": "f56ca32b9bf2a19aaec566710f2ae002b6a38a4508061b9c6a58ed01e5f91d2a",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_stability_regression.py",
+      "sha256": "ebcf51b5b52935f3d43b809bcf574a072075f4c41dec12b9fab318cb698b0d78",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_addin_host.py",
+      "sha256": "aaac2ccbc03e83a962b149fbc33585ed0f5ce1efdf40fc2aa44cbd9ff866e0a5",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_addin_host_probe.py",
+      "sha256": "65983cdc637a8c1068bb411db3059cb33090229215263deba65c6acd3b13333f",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_assembly_aliases.py",
+      "sha256": "7acc8cd8c47bd182057819db1891be88ed61926769a606912d981fdcd30054a9",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_assembly_interference.py",
+      "sha256": "1b008d18bc73a043eee057be11d43add1c6b00ae151147acdb42fa1012b190c6",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_batch_export.py",
+      "sha256": "3b9c6b82f0ae2ad69bbcc7a827b5ad70fb284bf6d5de852fed268a9552c083aa",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_bom_traceability.py",
+      "sha256": "25f0012d4e0d4c9cbd6a72b18923fa31dfda7e76794960c368c7ca91285446d4",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_capability_probe.py",
+      "sha256": "955b48c2ecf194afb8d295ee1a75da0f469a6d9b807af085c8661a0b806baee4",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_connect_open_document.py",
+      "sha256": "bbdf85856eea7036a293d610355148220883b85d4234637ba21bdb340db347fe",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_delivery.py",
+      "sha256": "de05e733380ec36828f803659a040ad736c5914e29385593d5464680370493d4",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_document_data.py",
+      "sha256": "1094ae8acca224d44111b91c45bf6f1b455b43d964e23516b1af69e377d5a085",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_drawing_structure.py",
+      "sha256": "a833c69d43a156121653a3e52c3efcc48e01d16c945fbb5ea3bcae3cd9007453",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_entity_reference.py",
+      "sha256": "90203266809cc50026143ebdc641da60a9bec938befa7c77da3ac8cf6c46cba5",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_hole_features.py",
+      "sha256": "dd2fa6da3c66c81b3ef0d9893c70295ae30233234578b2bfcb292af35f88eefd",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_motion_audit.py",
+      "sha256": "2fc71c8a8c802111f906e51228ac8e78c5e9bf6a93e9c4501e28fb5f3f97f292",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_part_sketch_selection.py",
+      "sha256": "d6e61256d874a6adb5ab77c3f2b9b968bd97c93d0af84434b5b482813dc66555",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_review_geometry.py",
+      "sha256": "ecb18162a97830562e8c0ac8072b56354adde028a619cd00699c4a2c1c285258",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_review_pdf.py",
+      "sha256": "d51a0dcd89a8001b2d79a4148d0d59591e721433fa1dde3f66f859cd1e6de75a",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_sheet_metal.py",
+      "sha256": "49249b81b95d4700a46893e9b72b48ce66e9f87efde1369d052b4c0f41df6269",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sw_weldment.py",
+      "sha256": "77b0a52ca29237fb60f600924273b726e2ac3244c48911c815ef1ebc7e28864a",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_sync_bundled_skill.py",
+      "sha256": "070cc0487d0b1e795f767883b1cc8461055bc0ff0f64d7b8f8124a3875a5663d",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_threaded_hole_subskill.py",
+      "sha256": "69ee7646adca80c1aded43edc933c3e556c574ee06aa783fa699b047db63f5ba",
+      "normalize_lf": true
+    },
+    {
+      "path": "tests/test_workbench_queue_worker.py",
+      "sha256": "8a0c11f4a0cff3b5ed35701c811d9cce324d6f7563f72fdf2d2d3bc840980f8e",
+      "normalize_lf": true
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "bbb4984a278d68533d08926996591e474f5ba7f58a6787f55720ed44e25a54a1",
+      "normalize_lf": true
+    },
+    {
+      "path": "安装说明.md",
+      "sha256": "2c35c7a1cbe092b2e2682def0d519309a970d5f9a7fbbc97381c01577d57d05d",
+      "normalize_lf": true
+    }
+  ]
+}

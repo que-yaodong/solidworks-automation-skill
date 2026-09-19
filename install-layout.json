@@ -1,0 +1,32 @@
+{
+  "suite_id": "solidworks-automation-skill",
+  "version": "1.0.0",
+  "repository": "https://github.com/que-yaodong/solidworks-automation-skill",
+  "default_library": "D:\\ChatGPT\\CAD套件",
+  "skills": [
+    {
+      "name": "solidworks-automation",
+      "path": "."
+    },
+    {
+      "name": "autocad-automation",
+      "path": "subskills/autocad-automation"
+    },
+    {
+      "name": "solidworks-engineering-drawing",
+      "path": "subskills/solidworks-engineering-drawing"
+    },
+    {
+      "name": "solidworks-fillet-chamfer-cnc",
+      "path": "subskills/solidworks-fillet-chamfer-cnc"
+    },
+    {
+      "name": "solidworks-threaded-holes",
+      "path": "subskills/solidworks-threaded-holes"
+    },
+    {
+      "name": "solidworks-vibecad",
+      "path": "subskills/solidworks-vibecad"
+    }
+  ]
+}
